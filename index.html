@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-bar">
+<input type="text" placeholder="Enter your location" class="input-bar">
+<button class="fa-solid fa-magnifying-glass" id="searchbtn">
+
+</button>
+            </div>
+        </div>
+        <div class="home">
+            <p class="one">Welcome to Weather App</p>
+                <p class="two">Please do enter your location.</p>
+                <img src="assets/home.png" alt="home page"/>
+        </div>
+        <div class="loc-not-found">
+            <h1>Sorry,Location Not Found!!</h1>
+            <img src="assets/error.png">
+        </div>
+        <div class="weather-body">
+<img src="assets/cloud.png" alt="weather image" class="weather-img">
+          <div class="weather-box">
+    <p class="temp">0<sup>°C</sup></p>
+    <p class="otherinfo">Clear Sky</p>
+          </div>
+          <div class="details">
+            <div class="humidity">
+                <i class="fa-sharp fa-solid fa-droplet" style="color: #74C0FC;"></i>
+                <div class="text">
+                    <span id="humidity">45%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+        
+          
+            <div class="windspeed">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="Wind-Speed">10Km/hr</span>
+                    <p>Wind-Speed</p>
+                </div>
+        
+
+          </div>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0488fc010a.js" crossorigin="anonymous"></script>
+</body>
+</html>
